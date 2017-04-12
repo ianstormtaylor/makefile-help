@@ -1,7 +1,7 @@
 
 # makefile-help
 
-An easy way to add a `make help` target to your Makefiles, that is auto-populated from comment lines above your make targets.
+An easy way to add an auto-generated `make help` target to your Node.js project's `Makefile`.
 
 ---
 
@@ -11,8 +11,7 @@ For a makefile like...
 
 ```make
 ifneq ($(wildcard ./node_modules),)
-  include ./lib/modules/makefile-help/Makefile
-  include ./lib/modules/makefile-assert/Makefile
+  include ./node_modules/makefile-help/Makefile
 endif
 
 # Run commands with the node debugger. (default: false)
@@ -96,5 +95,5 @@ And also for flag definitions like:
 
 ```make
 # This comment will show up for the flag in the help.
-FLAG ?= false
+FLAG ?=
 ```
