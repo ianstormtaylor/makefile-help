@@ -1,6 +1,6 @@
 {
   "name": "makefile-help",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "An easy way to add a `make help` target to your Makefiles.",
   "repository": "git://github.com/ianstormtaylor/makefile-help.git",
   "license": "MIT"
