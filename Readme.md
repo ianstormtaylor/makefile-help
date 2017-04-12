@@ -3,6 +3,8 @@
 
 An easy way to add an auto-generated `make help` target to your Node.js project's `Makefile`.
 
+This makes `make` command discovery nicer, while still using the same `make` tool that's available in pretty much every dev environment. If you're looking for something a bit more powerful, but at the expense of installing something new, check out [`tj/mmake`](https://github.com/tj/mmake)!
+
 ---
 
 ### Example
