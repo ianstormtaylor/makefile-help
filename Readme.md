@@ -65,6 +65,10 @@ $ make help
 ### Installation
 
 ```bash
+yarn add makefile-help
+```
+
+```bash
 npm install --save makefile-help
 ```
 
